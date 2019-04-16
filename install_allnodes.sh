@@ -2,7 +2,7 @@
 
 # Install docker as container runtime
 sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-sudo yum install docker-ce
+sudo yum install -y docker-ce
 sudo systemctl enable docker.service
 sudo systemctl start docker.service
 
